@@ -42,28 +42,28 @@ const Food = () => {
               All
             </button>
             <button
-              onClick={() => filterType('burger')}
+              onClick={() => filterType('Dish')}
               className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'
             >
-              Burgers
+              อาหาร
             </button>
             <button
-              onClick={() => filterType('pizza')}
+              onClick={() => filterType('Snacks')}
               className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'
             >
-              Pizza
+              ของทานเล่น
             </button>
             <button
-              onClick={() => filterType('salad')}
+              onClick={() => filterType('Dessert')}
               className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'
             >
-              Salads
+             ของหวาน
             </button>
             <button
-              onClick={() => filterType('chicken')}
+              onClick={() => filterType('Drink')}
               className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'
             >
-              Chicken
+              เครื่องดื่ม
             </button>
           </div>
         </div>
@@ -73,28 +73,28 @@ const Food = () => {
           <p className='font-bold text-gray-700'>Filter Price</p>
           <div className='flex justify-between max-w-[390px] w-full'>
             <button
-              onClick={() => filterPrice('$')}
+              onClick={() => filterPrice('฿')}
               className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'
             >
-              $
+              ฿
             </button>
             <button
-              onClick={() => filterPrice('$$')}
+              onClick={() => filterPrice('฿฿')}
               className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'
             >
-              $$
+              ฿฿
             </button>
             <button
-              onClick={() => filterPrice('$$$')}
+              onClick={() => filterPrice('฿฿฿')}
               className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'
             >
-              $$$
+              ฿฿฿
             </button>
             <button
-              onClick={() => filterPrice('$$$$')}
+              onClick={() => filterPrice('฿฿฿฿')}
               className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'
             >
-              $$$$
+              ฿฿฿฿
             </button>
           </div>
         </div>
